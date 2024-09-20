@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poster</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .poster {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .poster img {
+            width: 100%;
+            height: auto;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 20px 0;
+            color: #333;
+        }
+        p {
+            font-size: 1.2em;
+            color: #666;
+        }
+        .contact {
+            margin-top: 30px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+
+<div class="poster">
+    <img src="poster-image.jpg" alt="Poster Afbeelding">
+    <h1>Titel van het Event</h1>
+    <p>Beschrijving van het evenement of de gelegenheid waarvoor de poster is gemaakt. Hier kun je meer details toevoegen over het evenement, de datum, locatie en andere belangrijke informatie.</p>
+    <div class="contact">
+        <p>Contact: 06-12345678</p>
+        <p>Email: voorbeeld@example.com</p>
+    </div>
+</div>
+
